@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String home() {
-        return "Bonjour, TP Jenkins ENSA Khouribga !";
+        return "Bonjour, version 2 via webhook !";
     }
 }
